@@ -87,4 +87,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="AndTest.vm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="AndTest.asm">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

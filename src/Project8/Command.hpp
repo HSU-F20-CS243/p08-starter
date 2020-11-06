@@ -98,6 +98,7 @@ public:
 	Segment segment;
 	string arg1;
 	string arg2;
+	bool debugMode = true;
 
 	Command(CommandType type, string segment = "", string arg1 = "", string arg2 = "")
 	{

@@ -166,6 +166,10 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="main_ng.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="AndTest.asm" />
+    <None Include="AndTest.vm" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

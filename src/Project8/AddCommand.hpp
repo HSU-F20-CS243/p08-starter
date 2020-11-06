@@ -39,6 +39,11 @@ public:
 		*/
 		ostringstream result{};
 
+		if (Command::debugMode == true)
+		{
+			result << "//begin AddCommand code" << endl;
+		}
+
 		//decrement stack pointer to get second value (Y)
 		result << "@SP" << endl;
 		result << "M=M-1" << endl;
@@ -61,6 +66,11 @@ public:
 		//increment stack pointer
 		result << "@SP" << endl;
 		result << "M=M+1" << endl;
+
+		if (Command::debugMode == true)
+		{
+			result << "//bend AddCommand code" << endl;
+		}
 
 		return result.str();
 	}
